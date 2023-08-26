@@ -153,10 +153,6 @@ body{
     background-color:   #4b4646;
 }
 
-.redes-sociais .github{
-    background-color: #4b4646;
-}
-
 .portfolios{
     display: flex;
     flex-direction: column;
@@ -194,5 +190,9 @@ body{
 
 .portfolios .tipo-portfolio {
     font-size: 12px;
+}
+
+.portifolios .github{
+    background-color: #4b4646;
 }
 
