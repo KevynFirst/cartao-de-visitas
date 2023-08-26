@@ -6,7 +6,7 @@
 
 <h2 align="center">🖥Preview</h2>
 
-<img src="src/images/bg1.jpg" alt="Preview desktop"></img>
+<img src="src/imgs/bg1.png" alt="Preview desktop"></img>
 
 ### Veja o projeto funcionando <a href="https://kevynfirst.github.io/projeto-fichas">aqui</a>. 👈
 
