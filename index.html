@@ -1,105 +1,194 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="author" content="Kevyn Bezerra Ladislau">
+    <meta name="description" content="Primeiro Projeto prático">
+    <meta name="keywords" content="  ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="./src/css/reset.css">
-    <link rel="stylesheet" href="./src/css/style.css">
-    <link rel="stylesheet" href="./src/css/scroll.css">
-
-    <title>Mini Portfólio</title>
-  </head>
-  <body>
-    
-    <main class="cartao">
-      <div class="minhas-informacoes">
-        <img src="./src/imgs/foto-perfil.png" alt="foto de perfil" />
-        <h1 class="nome">Kevyn Bezerra Ladislau</h1>
-        <h2 class="cargo">Design | Front-end Developer</h2>
-      </div>
-
-      <div class="conteudo">
-        <ul class="abas">
-          <li class="aba selecionado" id="sobre-mim">
-            <img src="./src/imgs/sobre.gif" alt="ícone de sobre mim" />
-          </li>
-          <li class="aba" id="meus-portfolios">
-            <img src="./src/imgs/cristal.gif" alt="ícone de portfolios" />
-          </li>
-          <li class="aba" id="minhas-redes">
-            <img src="./src/imgs/coracao.gif" alt="ícone de redes sociais" />
-          </li>
-        </ul>
-        <!--1 aba-->
-        <div class="informacoes-abas">
-          <div class="informacao selecionado" id="informacao-sobre-mim">
-            <h3 class="sub-titulo">Sobre</h3>
-
-            <div class="descricao">
-              <p>Olá! meu nome é Kevyn B. Ladislau, seja bem-vindo(a)!</p>
-              <br>
-              <p>
-                Sou formado em <span>Sistemas de Informação e Pós-Graduado em Marketing Digital</span>, um entusiasta pela programação desda minha graduação.
-                Sempre tive receio em trabalhar com programação, por achar que não era capaz,
-                atualmente deixei esse temor de lado e coloquei em prática o sonho de ser Desenvolvedor Front-End,
-                estudando <span>HTML, CSS e JavaScript e seus frameworks </span>inicialmente. Apaixonado por café, meus
-                principais hobbies são jogar RPG de mesa, ver animes e séries.
-              </p>
-            </div>
-            <ul class="redes-sociais descricao">
-              <li>
-                <a href="https://drive.google.com/file/d/1f_Jz_erRb8ygb9_QgQEGm-tXjhJ02Zqu/view?usp=share_link" target="_blank" class="curriculo">Currículo</a>
-              </li>
-              <li>
-                <a href="https://drive.google.com/drive/folders/1kLqRZ2xGqOHiLb8Mh9p4nPVKxFyz0Yj8?usp=sharing" target="_blank" class="certificados">Certificados</a>
-              </li>
-
-            </ul>
-          </div>
-           <!--2 aba-->
-           <div class="informacao" id="informacao-meus-portfolios">
-            <h3 class="sub-titulo">Portifólios</h3>
-
-            <ul class="portfolios">
-                <li>
-                  <a href="https://kevynfirst.github.io/projeto-sistemas/" target="_blank" class="webdesign">Projeto Sistemas</a>
-                </li>
-                <li>
-                  <a href="https://kevynfirst.github.io/primeiro-projeto/" target="_blank" class="webdesign">Primeiro Projeto</a>
-                </li>
-
-            </ul>
-          </div>
-          <!--3 aba-->
-          <div class="informacao" id="informacao-minhas-redes">
-            <h3 class="sub-titulo">Minhas redes</h3>
-
-            <ul class="redes-sociais">
-                <li>
-                  <a href="https://www.instagram.com/kevynfirst/" target="_blank" class="instagram">Instagram</a>
-                </li>
-
-                <li>
-                  <a href="https://www.linkedin.com/in/kevynfirst/" target="_blank" class="linkedin">Linkedin</a>
-                </li>
-                <li>
-                  <a href="https://contate.me/kevynfirst" target="_blank" class="whatsapp">Whatsapp</a>
-                </li>
-                <li>
-                  <a href="https://github.com/KevynFirst" target="_blank" class="github">GitHub</a>
-                </li>
-            </ul>
-          </div>
+    <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Primeiro Projeto</title>
+</head>
+<body>
+    <header>
+        <div class="center">
+            <div class="logo"><a href="https://kevynfirst.github.io/mini-portfolio" target="_blank" alt="mini-portfolio"><h2>Kevyn<span class="logored">First</span></a></div>
+                <nav class="menu-desktop">
+                    <ul>
+                        <li class="home">
+                            <a href="https://kevynfirst.github.io/mini-portfolio">Home</a>
+                        </li>
+                        <li class="sobre">
+                            <a href="#sobre-equipe">Sobre</a>
+                        </li>
+                        <li class="contato">
+                            <a href="https://contate.me/kevynfirst">Contato</a>
+                        </li>
+                    </ul>
+                </nav><!--menu-desktop-->
+            <div class="clear"></div>
         </div>
-      </div>
-    </main>
+    </header>
+    <section class="main-section">
+        <div class="overlay"></div>
+        <div class="center">
+            <h2 class="titulo">FIRST PROJECT</h2>
+            <p class="wcenter">
+                Esse é meu primeiro projeto depois que decidi ir em busca de mudar de vida através da programação. Baseado no conteúdo do curso Web Designer Express da Danki Code.
+                Aqui eu utilizo HTML5 e CSS3, para colocar em prática os conteúdos dessas tecnologias.
+            </p>            
+        </div>
+    </section><!--main-section-->
+    <section class="diferenciais">
+        <div class="center">
+            
+            <div class="line-text">
+                <div class="barra-text" style="width: 100px;"></div>
+                <h2>Minhas Experiências</h2>
+            </div>
 
-    <script src="./src/js/index.js"></script>
-  </body>
+            <div class="icones-diferenciais">
+                <div class="box-icone-single one">
+                    <h1><i class="fa-solid fa-pen-nib"></i></h1>
+                    <p>
+                        Conhecimento em <color>designer,</color> desenvolvo todo o processo de definir requisitos e visualizar e criar elementos gráficos, incluindo logotipos, identidade visual de uma marca, layouts e tratamento de imagens.  
+                    </p>
+                </div>
+                <div class="box-icone-single duo">
+                    <h1><i class="fa-solid fa-bullseye"></i></h1>
+                    <p>
+                        Conhecimento em <color>Gestão de Redes Sociais e Tráfego,</color> viso a mensagem da marca para ser forte e uniforme em todos os canais e iniciativas de marketing e
+                        Identificar as oportunidades para alcançar novos segmentos de mercado e expandir a participação de mercado.
+                    </p>
+                </div>
+                <div class="box-icone-single tri">
+                    <h1><i class="fa-sharp fa-solid fa-code"></i></h1>
+                    <p>
+                        Focado em ser <color>desenvolvedor front-end,</color> visando em proporcionar uma boa experiência para o usuário dentro das aplicações. No desenvolvimento de páginas com as quais,
+                        o usuário irá interagir. Isso inclui elementos que determinam a identidade visual de um site ou aplicativo.
+                    </p>
+                </div>
+                <div class="clear"></div>
+            </div><!--icones-diferenciais-->
+        </div>
+    </section><!--diferenciais-->
+    <section id="sobre-equipe" class="sobre-equipe">
+        <div class="center">
+            
+            <div class="equipe">
+                <div class="avatar-box">
+                    <div style="background-image: url('./imgs/kevyn.png');" class="img-avatar"></div><div class="descricao-avatar">
+                        <h2>Kevyn Bezerra Ladislau</h2>
+                    </div>
+                </div>
+            </div><!--equipe-->
+           
+            <div class="sobre">
+                <div class="line-text">
+                        <h2>Sobre</h2>
+                        <p>
+                            Sou formado em <color>Sistemas de Informação</color> e Pós-Graduado em <color>Marketing Digital</color>, um entusiasta pela programação desda minha graduação.
+                            Sempre tive receio em trabalhar com programação, por achar que não era capaz,
+                            atualmente deixei esse temor de lado e coloquei em prática o sonho de atuar na minha área de formação,
+                            iniciando meus estudos primariamente por <color>HTML5, CSS5 e JavaScript</color>. Viciado em café, meus
+                            principais hobbies são jogar RPG de mesa,sofrer em jogos Soulslike, assistir animes e séries.
+                        </p>
+                </div>                
+            </div><!--sobre-->
+        </div><!--center-->
+    </section><!--sobre-equipe-->
+    <section class="inscricao">
+        <div class="center">
+            <div class="w50 wcenter">
+                <h2 class="inscricao-texto">
+                    VEJA MEUS PROJETOS
+                </h2>
+            </div>
+            <div class="w50 wcenter">
+                <form class="inscricao-form">
+                    <input type="text" placeholder=" &nbsp Exemplo de input"><input type="submit" name="acao" value="Enviar!">
+                </form>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </section>
+
+    <section class="cards">			
+        <div class="center">
+
+
+
+            <div class="cards-wraper">
+            <div class="box-single-cards">
+                <img src="./imgs/bg2.png" />
+                    <h2>Projeto Sistema ERP</h2>
+                    <p>Um sistema ERP para realização do <color>TCC</color> da minha graduação de <color>sistemas de informação</color>. Aperfeiçoado e implementado na empresa Carrocerias Cariri, a mesma empresa do estudo em questão. com o objetivo de realizar gestão da empresa, controle financeiro e de estoque, gera orçamentos e diversos relátorios por datas estimadas pelo gestor.</p>
+                </div><!--box-single-cards-->
+            <a href="https://github.com/KevynFirst/sistema-werpsystem" target="_blank">Conhecer o Projeto</a>
+            </div><!--cards-wraper-->
+
+            <div class="cards-wraper">
+                <div class="box-single-cards">
+                    <img src="./imgs/bg0.jpg" />
+                    <h2>Projeto Fichas</h2>
+                    <p>Desenvolvido baseado em um projeto de uma live do canal <color>Dev em Dobro</color>, as imagens mostradas foram geradas na inteligência artificial <color>Mid Journey.</color></p>
+                </div><!--box-single-cards-->
+                <a href="https://kevynfirst.github.io/projeto-fichas/" target="_blank">Conhecer o projeto</a>
+            </div><!--cards-wraper-->
+
+            <div class="cards-wraper">
+            <div class="box-single-cards">
+                <img src="./imgs/bg1.png" />
+                <h2>Projeto Sistemas</h2>
+                <p>Um projeto de um <color>cartão de visitas digital</color> que redireciona para meu curriculo, certificações, principais projetos que já desenvolvi e minhas redes sociais, também baseado em um projeto do <color>Dev em Dobro</color>.</p>
+            </div><!--box-single-cards-->
+            <a href="https://kevynfirst.github.io/cartao-de-visitas/" target="_blank">Conhecer o projeto</a>
+            </div><!--cards-wraper-->
+
+            
+        </div><!--center-->
+
+    </section><!--cards-->
+    <footer class="footer1">
+        <div class="center">
+            <div class="w33 ">
+                <h2><color class="c2">Onde estou?</color></h2>
+                <p><i class="fa-solid fa-location-dot"></i>R. Dom Aloísio Lorscheider, 061 <br> São José, Juazeiro do Norte-CE</p>
+                <p><i class="fa-solid fa-phone"></i>(88) 9.8193-6004</p></a>
+            </div>
+            <div class="w33 ">
+                <h2><color class="c2">Link Úteis</color></h2>
+                <a href="https://cursos.dankicode.com/" target="_blank" rel="noopener noreferrer">Danki Code</a>
+                <a href="https://w3schools.com/" target="_blank" rel="noopener noreferrer">W3schools</a>
+                <a href="https://stackoverflow.com/" target="_blank" rel="noopener noreferrer">StackOverFlow</a>
+                
+            </div>
+            <div class="w33 ">
+                <h2 class="contato"><color class="c2">Contato</color></h2>
+                <div class="grupo-icons">
+                    <a href="https://www.instagram.com/kevynfirst/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/kevynfirst/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://contate.me/kevynfirst" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </footer>
+    <footer class="footer2">
+        <div class="center">
+            <p>2022 © Copyright - Kevyn Bezerra Ladislau</p>
+        </div>
+    </footer>
+</body>
 </html>
