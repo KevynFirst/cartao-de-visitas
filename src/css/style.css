@@ -145,11 +145,7 @@ body{
     background-color: #c73434;
 }
 
-.redes-sociais .whatsapp{
-    background-color: #0c8059;
-}
-
-.redes-sociais .certificados{
+.redes-sociais .certificados, .redes-sociais .github{
     background-color:   #4b4646;
 }
 
@@ -190,9 +186,5 @@ body{
 
 .portfolios .tipo-portfolio {
     font-size: 12px;
-}
-
-.portfolios .github{
-    background-color: #4b4646;
 }
 
