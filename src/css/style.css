@@ -145,9 +145,13 @@ body{
     background-color: #c73434;
 }
 
-.redes-sociais .certificados, .redes-sociais .github{
+.redes-sociais .certificados{
     background-color:   #4b4646;
 }
+.redes-sociais .github{
+    background-color:   #4b4646;
+}
+
 
 .portfolios{
     display: flex;
