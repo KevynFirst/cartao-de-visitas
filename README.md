@@ -1,4 +1,4 @@
-<h1 align="center">.:| Projeto Cartão de Visitas |:.</h1>
+<h1 align="center">.: Projeto Cartão de Visitas :.</h1>
 
 <br>
 
